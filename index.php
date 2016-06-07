@@ -102,7 +102,14 @@ switch ($_GET['p'])
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parceiros</a>
                         <ul class="dropdown-menu">
-                        	<li><a href="index.php?p=locesports"><i class="fa fa-plus"></i>LOCESPORTS</a></li>
+                       	  <li><a href="index.php?p=locesports"><i class="fa fa-plus"></i>LOCESPORTS</a></li>
+                          <li><a href="https://www.youtube.com/channel/UC1edvuVpmOfuJlXQlZ35N7A" target="_blank"><i class="fa fa-plus"></i>KykoGamer</a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">YOUTUBERS</a>
+                        <ul class="dropdown-menu">
+                          <li><a href="https://www.youtube.com/channel/UC1edvuVpmOfuJlXQlZ35N7A" target="_blank"><i class="fa fa-plus"></i>KykoGamer</a></li>
                         </ul>
                     </li>
                     <li>
@@ -160,10 +167,10 @@ switch ($_GET['p'])
                     <a data-toggle="collapse" class="btn btn-primary collapsed" data-target="#toggle-collapse">Lista de Servidores <i class="fa fa-caret-down"></i></a>
                     <div class="jumbotron-brands">
                     	<ul class="brands brands-sm brands-inline brands-circle">
-                    		<li><a href=""><i class="fa fa-facebook"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
-                            <li><a href=""><i class="fa fa-twitch"></i></a></li>
-                            <li><a href=""><i class="fa fa-steam"></i></a></li>
+                    		<li><a href="https://www.facebook.com/equipeundeadbrasil/?fref=ts"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitch"></i></a></li>
+                            <li><a href="http://steamcommunity.com/groups/undeadbrasilservidores"><i class="fa fa-steam"></i></a></li>
                         </ul>
                     </div>
                     <div id="toggle-collapse" class="panel-collapse collapse">

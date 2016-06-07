@@ -3,103 +3,23 @@
   <div class="col-sm-4 hidden-xs">
     <!-- SIDEBAR BOX - START -->
     <div class="box sidebar-box widget-wrapper">
-      <h3>Upcoming tournament</h3>
-      <div class="tournament"> <a href="tournament.html"><img src="assets/images/esl.png" class="img-responsive" alt=""></a>
-        <h4>ESL 2015</h4>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam posuere magna a dapibus luctus.</p>
-        <div class="date">21 - 29 June 2015</div>
-        <div class="text-center"><a href="tournament.html" class="btn btn-primary">More info</a></div>
+      <h3>Sobre Nós</h3>
+      <div class="tournament"></br>
+        <h4>UNDEAD SERVIDORES</h4>
+        <p>O Projeto <b>Undead Brasil</b> iniciou-se em 2013 com a criação do primeiro emulador de "WarZ" brasileiro (<b>CryZ</b>) . Logo surgia a <b>Equipe Undead Brasil</b> voltada oferecer melhor jogabilidade, desempenho, suporte ao player.<br /> Alugamos nosso primeiro servidor e desde então foi só decepção, servidores com baixa qualidade dentre outros problemas. Pensando nesse problema enfrentado por nós nasceu a <b>Undead Brasil Servidores</b>.<br />
+        Nossa meta é oferecer serviço de qualidade aos nossos jogadores e que tenham uma ótima experiência.</p>
+        <div class="date">25 Maio 2013</div>
+       <!-- <div class="text-center"><a href="tournament.html" class="btn btn-primary">More info</a></div>-->
       </div>
     </div>
     <!-- SIDEBAR BOX - END -->
-    <!-- SIDEBAR BOX - START -->
-    <div class="box sidebar-box widget-wrapper widget-matches">
-      <h3>Upcoming matches <a href="matches-list.html" class="btn btn-primary pull-right btn-sm">All matches</a></h3>
-      <a href="match-single.html">
-        <table class="table match-wrapper">
-          <tbody>
-            <tr>
-              <td class="game"><img src="assets/icons/dota2.png" alt=""> <span>Dota 2</span></td>
-              <td class="game-date"><span>5/10/2015 - 19:30</span></td>
-            </tr>
-            <tr>
-              <td class="team-name"><img src="assets/icons/cze.png" alt="">Czech Republic</td>
-              <td class="team-score">-</td>
-            </tr>
-            <tr>
-              <td class="team-name"><img src="assets/icons/swe.png" alt="">Sweden</td>
-              <td class="team-score">-</td>
-            </tr>
-          </tbody>
-        </table>
-      </a> <a href="match-single.html">
-          <table class="table match-wrapper">
-            <tbody>
-              <tr>
-                <td class="game"><img src="assets/icons/csgo.jpg" alt=""> <span>CS GO</span></td>
-                <td class="game-date"><span>22/11/2015 - 22:00</span></td>
-              </tr>
-              <tr>
-                <td class="team-name"><img src="assets/icons/den.png" alt="">Fnatic</td>
-                <td class="team-score">-</td>
-              </tr>
-              <tr>
-                <td class="team-name"><img src="assets/icons/swe.png" alt="">Ninjas in Pyjamas</td>
-                <td class="team-score">-</td>
-              </tr>
-            </tbody>
-          </table>
-        </a> </div>
-    <!-- SIDEBAR BOX - END -->
-    <!-- SIDEBAR BOX - START -->
-    <div class="box sidebar-box widget-wrapper widget-matches">
-      <h3>Latest matches <a href="matches-list.html" class="btn btn-primary pull-right btn-sm">All matches</a></h3>
-      <a href="match-single.html">
-        <table class="table match-wrapper">
-          <tbody>
-            <tr>
-              <td class="game"><img src="assets/icons/lol.png" alt=""> <span>LoL</span></td>
-              <td class="game-date"><span>18/02/2015 - 14:00</span></td>
-            </tr>
-            <tr>
-              <td class="team-name"><img src="assets/icons/usa.png" alt=""><b>Ninjas in Pyjamas</b></td>
-              <td class="team-score win">9</td>
-            </tr>
-            <tr>
-              <td class="team-name"><img src="assets/icons/den.png" alt="">Natus Vincere</td>
-              <td class="team-score lose">5</td>
-            </tr>
-          </tbody>
-        </table>
-      </a> <a href="match-single.html">
-          <table class="table match-wrapper">
-            <tbody>
-              <tr>
-                <td class="game"><img src="assets/icons/gta.png" alt=""> <span>GTA</span></td>
-                <td class="game-date"><span>8/6/2015 - 12:00</span></td>
-              </tr>
-              <tr>
-                <td class="team-name"><img src="assets/icons/swe.png" alt=""><b>Ninjas in Pyjamas</b></td>
-                <td class="team-score win">9</td>
-              </tr>
-              <tr>
-                <td class="team-name"><img src="assets/icons/usa.png" alt="">Natus Vincere</td>
-                <td class="team-score lose">5</td>
-              </tr>
-            </tbody>
-          </table>
-        </a> </div>
-    <!-- SIDEBAR BOX - END -->
+    <!-- SIDEBAR BOX - START --><!-- SIDEBAR BOX - END -->
+    <!-- SIDEBAR BOX - START --><!-- SIDEBAR BOX - END -->
     <!-- SIDEBAR BOX - START -->
     <div class="box sidebar-box widget-wrapper">
-      <h3>Categories</h3>
+      <h3>Parceiros</h3>
       <ul class="nav nav-sidebar">
-        <li><a href="#">Tournaments<span>45</span></a></li>
-        <li><a href="#">Leagues<span>122</span></a></li>
-        <li><a href="#">Counter Strike<span>684</span></a></li>
-        <li><a href="#">Dota 2<span>1242</span></a></li>
-        <li><a href="#">World of Warcraft<span>112</span></a></li>
-        <li><a href="#">Minecraft<span>18</span></a></li>
+<li><a href="https://www.youtube.com/channel/UC1edvuVpmOfuJlXQlZ35N7A" target="_blank">KykoGamer<span>YOUTUBE</span></a></li>
       </ul>
     </div>
     <!-- SIDEBAR BOX - END -->
