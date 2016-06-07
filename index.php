@@ -6,20 +6,26 @@ switch ($_GET['p'])
 	case 'home':
 		$p = 'pg/home.php';
 		break;
-	case 'servidores':
-		$p = 'pg/servidores.php';
+	case 'a3':
+		$p = 'pg/a3.php';
+		break;
+	case 'a2':
+		$p = 'pg/a2.php';
+		break;
+	case 'dayzmod':
+		$p = 'pg/dayzmod.php';
+		break;
+	case 'dayzs':
+		$p = 'pg/dayzs.php';
+		break;
+	case 'ark':
+		$p = 'pg/ark.php';
+		break;
+    case 'locesports':
+		$p = 'pg/locesports.php';
 		break;
     case 'dev':
 		$p = 'pg/dev.php';
-		break;
-    case 'motos':
-		$p = 'pg/motos.php';
-		break;
-    case 'about':
-		$p = 'pg/about.php';
-		break;
-    case 'contato':
-		$p = 'pg/contato.php';
 		break;
 	default:
 		$p = 'pg/home.php';
@@ -65,7 +71,7 @@ switch ($_GET['p'])
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-    
+  
 </head>
 <body>
     <h1>progaming</h1>
@@ -82,16 +88,21 @@ switch ($_GET['p'])
             <div class="navbar-collapse collapse">
             	<ul class="nav navbar-nav">
                 	<li><a href="index.php">Home</a></li>
-                    <li><a href="index.php?p=servidores">Servidores</a></li>
+                     <li class="dropdown">
+                     <a href="#">Servidores</a>
+                     	<ul class="dropdown-menu">
+  					 		<li><a href="index.php?p=a3"><i class="fa fa-plus"></i>ARMA 3</a></li>
+                            <li><a href="index.php?p=a2"><i class="fa fa-plus"></i>ARMA 2</a></li>
+                            <li><a href="index.php?p=dayzs"><i class="fa fa-plus"></i>DAYZ STANDALONE</a></li>
+                            <li><a href="index.php?p=ark"><i class="fa fa-plus"></i>ARK: SURVIVAL EVOLVED</a></li>
+                        </ul>
+                    </li>
                     <li><a href="index.php?p=dev">Desenvolvimento</a></li>
-                    <li><a href="gallery.html">Equipe</a></li>
+                    <li><a href="#">Equipe</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Parceiros</a>
                         <ul class="dropdown-menu">
-                        	<li><a href="#"><i class="fa fa-plus"></i>ESL</a></li>
-                            <li><a href="#"><i class="fa fa-plus"></i>PAIN</a></li>
-                            <li><a href="#"><i class="fa fa-plus"></i>KABUUM</a></li>
-                            <li><a href="#"><i class="fa fa-plus"></i>KEYD</a></li>
+                        	<li><a href="index.php?p=locesports"><i class="fa fa-plus"></i>LOCESPORTS</a></li>
                         </ul>
                     </li>
                     <li>
@@ -99,11 +110,13 @@ switch ($_GET['p'])
                   </li>
               </ul>
                 <div class="pull-right navbar-buttons hidden-xs">
+                <!--
                 	<a href="#" class="btn btn-primary">Register</a>
                     <a href="#" class="btn btn-inverse">Login</a>
                     <a class="navbar-icon show2" id="open-search"><i class="fa fa-search"></i></a>
                     <a class="navbar-icon hidden" id="close-search"><i class="fa fa-times"></i></a>
                     <div class="hidden" id="navbar-search-form">
+                    <!--
                         <form role="search">
                             <div class="form-group">
                                 <div class="input-group">
@@ -112,7 +125,8 @@ switch ($_GET['p'])
                                 </div>
                             </div>
                         </form>
-                    </div>
+                       
+                    </div> -->
                 </div>
           </div>
       </div>
@@ -127,7 +141,7 @@ switch ($_GET['p'])
     <div class="container hidden-xs">
     	<div class="header-title">
         	<div class="pull-left">
-        		<h2><a href="index.html"><span class="text-primary">UNDEAD </span>BRASIL</a></h2>
+        		<h2><a href="index.php"><span class="text-primary">UNDEAD </span>BRASIL</a></h2>
                 <p>Servidores</p>
             </div>
         </div>
@@ -154,47 +168,30 @@ switch ($_GET['p'])
                     </div>
                     <div id="toggle-collapse" class="panel-collapse collapse">
                         <div class="panel-body">
-                            <table class="table table-bordered table-header">
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th>Name</th>
-                                        <th>IP Address</th>
-                                        <th>Map</th>
-                                        <th>Players</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><img src="assets/icons/csgo.jpg" alt=""></td>
-                                        <td>[EU] CS:GO #1 | pixelized.cz</td>
-                                        <td>123.221.45.12:29999</td>
-                                        <td>de_dust2</td>
-                                        <td>18/18</td>
-                                    </tr>
-                                    <tr>
-                                        <td><img src="assets/icons/csgo.jpg" alt=""></td>
-                                        <td>[CZ/SK] CS:GO Public | pixelized.cz</td>
-                                        <td>45.184.170.200:27851</td>
-                                        <td>de_inferno</td>
-                                        <td>24/32</td>
-                                    </tr>
-                                    <tr>
-                                        <td><img src="assets/icons/lol.png" alt=""></td>
-                                        <td>[EU] League of Legends</td>
-                                        <td>50.243.180.246:25429</td>
-                                        <td>normal</td>
-                                        <td>10/30</td>
-                                    </tr>
-                                    <tr>
-                                        <td><img src="assets/icons/gta.png" alt=""></td>
-                                        <td>[EU] GTA Server</td>
-                                        <td>132.24.45.83:27852</td>
-                                        <td>classic</td>
-                                        <td>22/60</td>
-                                    </tr>                               
-                                </tbody>
-                            </table>
+<table width="622" class="table  table-header">
+  <thead>
+    <tr>
+      <th width="37">Game</th>
+      <th width="350">Server</th>
+      <th width="157">IP Address</th>
+      <th>JOIN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>DayZ Epoch A2</td>
+      <td><a href="http://www.gametracker.com/server_info/149.56.178.231:2302/" target="_blank"><img src="http://cache.www.gametracker.com/server_info/149.56.178.231:2302/b_350_20_692108_381007_FFFFFF_000000.png" border="0" width="350" height="20" alt=""/></a></td>
+      <td>149.56.178.231:2302</td>
+      <td width="112"><a href="steam://run/33930//-connect=149.56.178.231-port=2302-mod=EXPANSION;@DayZ_Epoch-nosplash-world=empty-nopause" class="btn btn-primary">STEAM</a></td>
+    </tr>
+    <tr>
+      <td>DayZ Origins A2</td>
+      <td><a href="http://www.gametracker.com/server_info/192.99.18.174:3779/" target="_blank"><img src="http://cache.www.gametracker.com/server_info/192.99.18.174:3779/b_350_20_5A6C3E_383F2D_D2E1B5_2E3226.png" border="0" width="350" height="20" alt=""/></a></td>
+      <td>192.99.18.174:3779</td>
+      <td width="112"><a href="steam://run/33930//-connect=192.99.18.174-port=3779-mod=EXPANSION;@DayZ_Origins-nosplash-world=empty-nopause" class="btn btn-primary">STEAM</a></td>
+    </tr>
+  </tbody>
+</table>
                         </div>
                     </div>
                 </div>
@@ -206,21 +203,10 @@ switch ($_GET['p'])
                 <div class="item">
                 	
                         <div class="overlay-wrapper">
-                            <img src="assets/images/image_001.jpg" class="img-responsive" alt="">
+                        <a href="index.php?p=a3">
+                        	<img src="assets/images/logo/arma3.jpg" class="img-responsive" alt="">
                             <span class="overlay"></span>
-                            <h2>Arma 3<span>Altis Life</span></h2>
-                        </div>
-                    
-                </div>
-                <!-- JUMBOTRON ITEM - END -->     
-                
-                <!-- JUMBOTRON ITEM - START -->     
-                <div class="item">
-                	<a href="single.html">
-                        <div class="overlay-wrapper">
-                            <img src="assets/images/image_002.jpg" class="img-responsive" alt="">
-                            <span class="overlay"></span>
-                            <h2>Arma 2 AO<span>Dayz Epoch | Dayz Origins</span></h2>
+                          <h2>Arma 3<span>Altis Life | Wastland</span></h2>
                         </div>
                     </a>
                 </div>
@@ -228,11 +214,11 @@ switch ($_GET['p'])
                 
                 <!-- JUMBOTRON ITEM - START -->     
                 <div class="item">
-                	<a href="single.html">
+                	<a href="index.php?p=a2">
                         <div class="overlay-wrapper">
-                            <img src="assets/images/image_003.jpg" class="img-responsive" alt="">
+                            <img src="assets/images/logo/dayzmod.jpg" class="img-responsive" alt="">
                             <span class="overlay"></span>
-                            <h2>Arma 3<span>Wastland</span></h2>
+                            <h2>DayZ MOD<span>Dayz Epoch | Dayz Origins</span></h2>
                         </div>
                     </a>
                 </div>
@@ -240,11 +226,11 @@ switch ($_GET['p'])
                 
                 <!-- JUMBOTRON ITEM - START -->     
                 <div class="item">
-                	<a href="single.html">
+                	<a href="index.php?p=a2">
                         <div class="overlay-wrapper">
-                            <img src="assets/images/image_004.jpg" class="img-responsive" alt="">
+                            <img src="assets/images/logo/arma2.jpg" class="img-responsive" alt="">
                             <span class="overlay"></span>
-                            <h2>Ark Survival Evolved<span>Em Breve...</span></h2>
+                            <h2>Arma 2<span>Em Breve</span></h2>
                         </div>
                     </a>
                 </div>
@@ -252,11 +238,23 @@ switch ($_GET['p'])
                 
                 <!-- JUMBOTRON ITEM - START -->     
                 <div class="item">
-                	<a href="single.html">
+                	<a href="index.php?p=dayzs">
                         <div class="overlay-wrapper">
-                            <img src="assets/images/image_005.jpg" class="img-responsive" alt="">
+                            <img src="assets/images/logo/dayz.jpg" class="img-responsive" alt="">
                             <span class="overlay"></span>
-                            <h2>DayZ<span>Em Breve...</span></h2>
+                            <h2>DayZ Standalone<span>Em Breve...</span></h2>
+                        </div>
+                    </a>
+                </div>
+                <!-- JUMBOTRON ITEM - END -->     
+                
+                <!-- JUMBOTRON ITEM - START -->     
+                <div class="item">
+                	<a href="index.php?p=ark">
+                        <div class="overlay-wrapper">
+                            <img src="assets/images/logo/ark.jpg" alt="" class="img-responsive" border="0">
+                            <span class="overlay"></span>
+                          <h2>Ark Survival Evolved<span>Em Breve...</span></h2>
                         </div>
                     </a>
                 </div>
@@ -308,13 +306,14 @@ switch ($_GET['p'])
     	<footer class="navbar navbar-default">
         	<div class="row">
             	<div class="col-md-6 hidden-xs hidden-sm">
+                <!--
                 	<ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php?p=servidores">Servidores</a></li>
                         <li><a href="index.php?p=equipe">Equipe</a></li>
                         <li><a href="index.php?p=parceiros">Parceiros</a></li>
                         <li><a href="/forum" target="_blank">Forum</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <div class="col-md-6">
                 	<p class="copyright">© Undead Brasil Servidores 2016 All right reserved.</p>
